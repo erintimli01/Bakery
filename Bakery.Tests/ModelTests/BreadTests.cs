@@ -24,8 +24,15 @@ namespace Bakery.Tests
     [TestMethod]
     public void GetTotal_PriceForOne_Price()
     {
-      Bread BreadInstance = new Bread(1);
-      Assert.AreEqual(5, BreadInstance.Total());
+      Bread breadInstance = new Bread(1);
+      Assert.AreEqual(5, breadInstance.Total());
+    }
+
+    [TestMethod]
+    public void GetTotal_PriceFor2_Price()
+    {
+      Bread breadInstance = new Bread(2);
+      Assert.AreEqual(10, breadInstance.Total());
     }
 
   }

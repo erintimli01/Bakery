@@ -17,8 +17,8 @@ namespace Bakery.Models
     }
     private int GetSale()
     {
-      int threeLoaves = Quantity / 3;
-      int sale = threeLoaves * InitialCharge;
+      int qThreeLoaves = Quantity / 3;
+      int sale = qThreeLoaves * InitialCharge;
       return sale;
     }
   }

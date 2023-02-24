@@ -13,7 +13,7 @@ namespace Bakery.Models
     {
       int initialCharge = Quantity * InitialCharge;
       int sale = GetSale();
-      return initialCharge;
+      return initialCharge - sale;
     }
     private int GetSale()
     {

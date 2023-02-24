@@ -8,6 +8,9 @@ namespace Bakery.UI
   {
     static void Main(string[] welcome)
     {
+      Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
+      Console.WriteLine("    || Welcome To Pierre's!  ||     ");
+      Console.WriteLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
       Console.WriteLine("Welcome to Pierre's Perfect Pastries (and Bread!) Bakery!");
       Console.WriteLine("We sell perfect pastries for $2 each or buy 3, get 1 free and perfect bread for $5 each or buy 2, get 1 free!");
 

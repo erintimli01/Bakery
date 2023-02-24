@@ -9,11 +9,17 @@ namespace Bakery.Models
     }
     public int Quantity { get; set; }
 
-     public int Total()
+    public int Total()
     {
       int initialCharge = Quantity * InitialCharge;
-      //int sale = GetSale();
+      int sale = GetSale();
       return initialCharge;
+    }
+    private int GetSale()
+    {
+      int qFourPastries = Quantity / 4;
+      int sale = qFourPastries * InitialCharge;
+      return sale;
     }
   }
 }

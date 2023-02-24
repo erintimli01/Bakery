@@ -27,6 +27,13 @@ namespace Bakery.Tests
       Assert.AreEqual(2, pastryInstance.Total());
     }
 
+    [TestMethod]
+    public void GetTotal_PriceFor2_Price()
+    {
+      Pastry pastryInstance = new Pastry(2);
+      Assert.AreEqual(4, pastryInstance.Total());
+    }
+
 
 
   }

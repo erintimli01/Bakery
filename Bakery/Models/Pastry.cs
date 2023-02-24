@@ -8,5 +8,12 @@ namespace Bakery.Models
       Quantity = quantity;
     }
     public int Quantity { get; set; }
+
+     public int Total()
+    {
+      int initialCharge = Quantity * InitialCharge;
+      //int sale = GetSale();
+      return initialCharge;
+    }
   }
 }

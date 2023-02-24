@@ -48,6 +48,5 @@ namespace Bakery.Tests
       Bread breadInstance = new Bread(7);
       Assert.AreEqual(25, breadInstance.Total());
     }
-
   }
 }

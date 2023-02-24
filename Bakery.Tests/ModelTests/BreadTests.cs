@@ -17,8 +17,16 @@ namespace Bakery.Tests
     [TestMethod]
     public void BreadQuantity_SetBreadQuantity_Quantity()
     {
-      Bread BreadInstance = new Bread(2);
-      Assert.AreEqual(2, BreadInstance.Quantity);
+      Bread breadInstance = new Bread(2);
+      Assert.AreEqual(2, breadInstance.Quantity);
     }
+
+    [TestMethod]
+    public void GetTotal_PriceForOne_Price()
+    {
+      Bread BreadInstance = new Bread(1);
+      Assert.AreEqual(5, BreadInstance.Total());
+    }
+
   }
 }

@@ -1,4 +1,4 @@
-<p align="center"> #_Pierre's Perfect Pastries (and bread!) Bakery_ </p>
+<p align="center">Pierre's Perfect Pastries (and bread!) Bakery</p>
 
 #### By _Erin Timlin_
 

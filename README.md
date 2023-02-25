@@ -32,4 +32,4 @@ _Enjoy our sales!_
 
 _Thanks for visiting! Please reach out with questions or suggestions!_
 
-Copyright MIT[] (c) _2023_ _Erin Timlin_
+Copyright [MIT](license.txt) (c) _2023_ _Erin Timlin_

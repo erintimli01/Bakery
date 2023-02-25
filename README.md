@@ -1,4 +1,4 @@
-<p align="center">Pierre's Perfect Pastries (and bread!) Bakery</p>
+# _<p align="center">:bread: Pierre's Perfect Pastries (and bread!) Bakery :doughnut:_</p>
 
 #### By _Erin Timlin_
 
@@ -26,7 +26,7 @@ _Enjoy our sales!_
 
 ## Known Bugs
 
-* _Program exits if an input is not a number or not a whole number (But who honestly only wants .45 of Pierre's perfect pastries or bread??)_
+* _Program exits if an input is not a number or not a whole number <sup><sub>(But who honestly only wants .45 of Pierre's perfect pastries or bread??)</sub></sup>_
 
 ## License
 

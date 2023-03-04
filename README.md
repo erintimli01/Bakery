@@ -23,6 +23,10 @@ _Enjoy our sales!_
 3. In the command line, run the command "dotnet run" to compile and execute the console application. Since this is a console application, you'll interact with it through text commands in your terminal.
 4. Optionally, you can run "dotnet build" to compile this console app without running it.
 
+## Testing Instructions
+1. After you've cloned this repo navigate from the root directory to "Bakery.Tests"
+2. Once in "Bakery.Tests" run "dotnet restore" in the terminal
+3. After files are compiled, run "dotnet test" in the terminal to run any tests written in tests files, results will be shown in terminal
 
 ## Known Bugs
 
